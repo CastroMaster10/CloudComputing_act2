@@ -20,7 +20,7 @@ def run(raw_data):
 
 
     result = model.predict(data).tolist()
-    result_sigmoid = np.sigmoid(result)
+    result_sigmoid = sigmoid(np.array(result,dtype=float))
     umbral = 0.5260736508016486
     result_finals = [1 if x > umbral else 0 for x in result_sigmoid]
 
