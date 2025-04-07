@@ -13,7 +13,7 @@
 1. Correr archivo `src/modelo.ipynb` para el preprocesamiento de los datos que se encuentran en el repositorio de [kaggle](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 2. Correr archivo `src/modelo.ipynb` para obtener el archivo `model.pkl`
 3. Correr archivo `src/cloud.ipynb` para conectarse al Workspace de Azure y crear la API
-4. Validar API con datos de prueba, [esta es la URL]()
+4. Validar API con datos de prueba, en notebook src/API.ipynb
 
 ## Especificaciones de dispositivo
 
